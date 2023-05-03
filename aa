@@ -1,0 +1,7 @@
+   def __init__(self, name, balance):
+        self.name = name
+        self.balance = balance
+    
+    def calculate_percentages(self):
+        interest_rate = 0.005 
+        return self.balance * interest_rate
